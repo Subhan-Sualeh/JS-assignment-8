@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+     <h2>Chap 43 - 48</h2>
+    <h2>Question 1 & 2</h2>
+    <h1>Smartphones</h1>
+    <br><br><br>
+    <ul class="smartP" id="phoneCollection">
+        <li onclick="order('0')"><img src="./IMG/Realme.webp" alt=""><span><p> Your order has been<br>added to cart <br><button onclick="remove('0')">X</button></p></span><h2>Realme GT Master</h2> </li>
+
+        <li onclick="order('1')"><img src="./IMG/Samsung-Galaxy-s10.jpg" alt=""><span><p> Your order has been<br>added to cart <br><button onclick="remove('1')">X</button></p></span><h2>Samsung Galaxy s10</h2>
+        </li>
+
+        <li onclick="order('2')"><img src="./IMG/xiaomi.jpg" alt=""><span><p> Your order has been<br>added to cart <br><button onclick="remove('2')">X</button></p></span><h2>Redmi 11 Pro</h2>
+        </li>
+
+        <li onclick="order('3')"><img src="./IMG/Iphone 11.jpg" alt=""><span><p> Your order has been<br>added to cart <br><button onclick="remove('3')">X</button></p></span><h2>Iphone 11</h2>
+        </li>
+    </ul>
+    </div>
+    <br><br><br>
+    <h2>Question 3</h2>
+    <div class="stuList">
+        <table id="table">
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Salman</td>
+                <td>10</td>
+                <td onclick="del('1')"><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Rafiq</td>
+                <td>10</td>
+                <td onclick="del('2')"><button>Delete</button></td>
+            </tr>
+            <t  r>
+                <td>2</td>
+                <td>Hameed</td>
+                <td>10</td>
+                <td onclick="del('3')"><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Shafiq</td>
+                <td>10</td>
+                <td onclick="del('4')"><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sharukh</td>
+                <td>10</td>
+                <td onclick="del('5')"><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Farooq</td>
+                <td>10</td>
+                <td onclick="del('6')"><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Ali</td>
+                <td>10</td>
+                <td onclick="del('7')"><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Saleem</td>
+                <td>10</td>
+                <td onclick="del('8')"><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Kareem</td>
+                <td>10</td>
+                <td onclick="del('9')"><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Imran</td>
+                <td>10</td>
+                <td onclick="del('9')"><button>Delete</button></td>
+            </tr>
+        </table>
+    </div>
+    <br><br><br>
+    <div class="bulbonoff">
+        <h2>Question 4</h2>
+        <img src="IMG/Civic Hatch.jpg" onmouseover="change('car1')" onmouseout="change('car2')" id="cAr" width="80%">
+ 
+     </div>
+     <br><br><br>
+     <h2>Question 5</h2>
+     <div id='counter'>
+
+        <h1 id="head">0</h1>
+        
+        <div class="button">
+        <button onclick="count('1')">+</button>
+
+        <button onclick="count('0')">-</button>
+        </div>
+
+     </div>
+
+</body>
+<script src="./app.js"></script>
+</html>

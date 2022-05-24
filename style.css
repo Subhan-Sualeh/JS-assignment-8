@@ -1,0 +1,52 @@
+.smartP{
+    display: flex;
+    flex-wrap: wrap;
+}
+.smartP li{
+    border: 2px black solid;
+    padding: 6px;
+    margin: 5px;
+    list-style: none;
+}
+.smartP span{
+    position: absolute;
+    display: none;
+}
+.smartP span p{
+    position: relative;
+    padding: 2px;
+    right: 98%;
+    background-color: rgb(202, 202, 202);
+    font-size: 25px;
+
+}
+.smartP img{
+    width: 200px;
+}
+.stuList th{
+    font-size: 40px;
+}
+.stuList td{
+    font-size: 25px;
+}
+#counter{
+
+font-size: 3rem;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+#counter h1{
+    margin: 10px;
+    margin-right: 5%;
+    margin-left: 4%;
+}
+
+#counter button{
+    padding: 30px;
+    border: black solid 3px;
+    border-radius: 50%;
+    font-weight: 500    ;
+    font-size: 35px;
+}
